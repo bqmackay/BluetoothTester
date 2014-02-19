@@ -17,5 +17,15 @@
 @property (strong, nonatomic) NSMutableArray *peripherals;
 @property (strong, nonatomic) NSMutableArray *selectedPeripherals;
 
+@property BOOL isScanning;
+
+- (void)cancelPeripheralConnection:(CBPeripheral *)peripheral;
+- (void)connectPeripheral:(CBPeripheral *)peripheral options:(NSDictionary *)options;
+- (void)stopScanning;
+- (void)scanForAllPeripherals;
+- (void)scanForMyLifterPeripherals;
+- (void)sendCommandToSelectedPeripherals:(int)message;
+- (void)saveSelectedPeripherals;
+- (void)removePeripherals;
 
 @end

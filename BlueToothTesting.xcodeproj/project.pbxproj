@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F346E5D318AD856A00AC207E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F346E5D218AD856A00AC207E /* Home.storyboard */; };
 		F346E5D618AD87C100AC207E /* BTDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F346E5D518AD87C100AC207E /* BTDeviceManager.m */; };
+		F39FCAC818AE80B300F77C4F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E05CFF18AA8CF9008CD655 /* Main_iPhone.storyboard */; };
+		F39FCACB18AE86F300F77C4F /* BTPeripherialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FCACA18AE86F300F77C4F /* BTPeripherialManager.m */; };
+		F39FCAD518AEA6A200F77C4F /* BTDeviceGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FCAD418AEA6A200F77C4F /* BTDeviceGrouping.m */; };
+		F39FCADB18AEA9BF00F77C4F /* BTDeviceGroupingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F39FCADA18AEA9BF00F77C4F /* BTDeviceGroupingObject.m */; };
+		F3A44AA918B3B9F800E61119 /* MessagingScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A44AA818B3B9F800E61119 /* MessagingScreenViewController.m */; };
+		F3A44AAC18B577E400E61119 /* MyLifterDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A44AAB18B577E400E61119 /* MyLifterDevice.m */; };
 		F3E05CEE18AA8CF9008CD655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E05CED18AA8CF9008CD655 /* Foundation.framework */; };
 		F3E05CF018AA8CF9008CD655 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E05CEF18AA8CF9008CD655 /* CoreGraphics.framework */; };
 		F3E05CF218AA8CF9008CD655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E05CF118AA8CF9008CD655 /* UIKit.framework */; };
 		F3E05CF818AA8CF9008CD655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3E05CF618AA8CF9008CD655 /* InfoPlist.strings */; };
 		F3E05CFA18AA8CF9008CD655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E05CF918AA8CF9008CD655 /* main.m */; };
 		F3E05CFE18AA8CF9008CD655 /* NavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E05CFD18AA8CF9008CD655 /* NavAppDelegate.m */; };
-		F3E05D0118AA8CF9008CD655 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E05CFF18AA8CF9008CD655 /* Main_iPhone.storyboard */; };
 		F3E05D0718AA8CF9008CD655 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E05D0618AA8CF9008CD655 /* NavViewController.m */; };
 		F3E05D0918AA8CF9008CD655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E05D0818AA8CF9008CD655 /* Images.xcassets */; };
 		F3E05D1018AA8CF9008CD655 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E05D0F18AA8CF9008CD655 /* XCTest.framework */; };
@@ -38,10 +42,19 @@
 
 /* Begin PBXFileReference section */
 		F346E5CF18AD440F00AC207E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		F346E5D218AD856A00AC207E /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		F346E5D418AD87C100AC207E /* BTDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDeviceManager.h; sourceTree = "<group>"; };
 		F346E5D518AD87C100AC207E /* BTDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDeviceManager.m; sourceTree = "<group>"; };
 		F346E5D718AD89E100AC207E /* BTDeviceManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		F39FCAC918AE86F300F77C4F /* BTPeripherialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeripherialManager.h; sourceTree = "<group>"; };
+		F39FCACA18AE86F300F77C4F /* BTPeripherialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeripherialManager.m; sourceTree = "<group>"; };
+		F39FCAD318AEA6A200F77C4F /* BTDeviceGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDeviceGrouping.h; sourceTree = "<group>"; };
+		F39FCAD418AEA6A200F77C4F /* BTDeviceGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDeviceGrouping.m; sourceTree = "<group>"; };
+		F39FCAD918AEA9BF00F77C4F /* BTDeviceGroupingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDeviceGroupingObject.h; sourceTree = "<group>"; };
+		F39FCADA18AEA9BF00F77C4F /* BTDeviceGroupingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDeviceGroupingObject.m; sourceTree = "<group>"; };
+		F3A44AA718B3B9F800E61119 /* MessagingScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagingScreenViewController.h; sourceTree = "<group>"; };
+		F3A44AA818B3B9F800E61119 /* MessagingScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagingScreenViewController.m; sourceTree = "<group>"; };
+		F3A44AAA18B577E400E61119 /* MyLifterDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLifterDevice.h; sourceTree = "<group>"; };
+		F3A44AAB18B577E400E61119 /* MyLifterDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLifterDevice.m; sourceTree = "<group>"; };
 		F3E05CEA18AA8CF9008CD655 /* BlueToothTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E05CED18AA8CF9008CD655 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3E05CEF18AA8CF9008CD655 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,16 +108,17 @@
 				F3E05CFF18AA8CF9008CD655 /* Main_iPhone.storyboard */,
 				F3E05D0518AA8CF9008CD655 /* NavViewController.h */,
 				F3E05D0618AA8CF9008CD655 /* NavViewController.m */,
-				F346E5D218AD856A00AC207E /* Home.storyboard */,
 			);
 			name = HomeScreen;
 			sourceTree = "<group>";
 		};
-		F346E5CD18AC31F800AC207E /* PeripheralScreen */ = {
+		F346E5CD18AC31F800AC207E /* MessagingScreen */ = {
 			isa = PBXGroup;
 			children = (
+				F3A44AA718B3B9F800E61119 /* MessagingScreenViewController.h */,
+				F3A44AA818B3B9F800E61119 /* MessagingScreenViewController.m */,
 			);
-			name = PeripheralScreen;
+			name = MessagingScreen;
 			sourceTree = "<group>";
 		};
 		F346E5CE18AC320000AC207E /* BTModule */ = {
@@ -113,8 +127,23 @@
 				F346E5D418AD87C100AC207E /* BTDeviceManager.h */,
 				F346E5D518AD87C100AC207E /* BTDeviceManager.m */,
 				F346E5D718AD89E100AC207E /* BTDeviceManagerDelegate.h */,
+				F39FCAC918AE86F300F77C4F /* BTPeripherialManager.h */,
+				F39FCACA18AE86F300F77C4F /* BTPeripherialManager.m */,
 			);
 			name = BTModule;
+			sourceTree = "<group>";
+		};
+		F39FCAD218AEA67E00F77C4F /* Grouping */ = {
+			isa = PBXGroup;
+			children = (
+				F39FCAD318AEA6A200F77C4F /* BTDeviceGrouping.h */,
+				F39FCAD418AEA6A200F77C4F /* BTDeviceGrouping.m */,
+				F39FCAD918AEA9BF00F77C4F /* BTDeviceGroupingObject.h */,
+				F39FCADA18AEA9BF00F77C4F /* BTDeviceGroupingObject.m */,
+				F3A44AAA18B577E400E61119 /* MyLifterDevice.h */,
+				F3A44AAB18B577E400E61119 /* MyLifterDevice.m */,
+			);
+			name = Grouping;
 			sourceTree = "<group>";
 		};
 		F3E05CE118AA8CF9008CD655 = {
@@ -151,8 +180,9 @@
 		F3E05CF318AA8CF9008CD655 /* BlueToothTesting */ = {
 			isa = PBXGroup;
 			children = (
+				F39FCAD218AEA67E00F77C4F /* Grouping */,
 				F346E5CE18AC320000AC207E /* BTModule */,
-				F346E5CD18AC31F800AC207E /* PeripheralScreen */,
+				F346E5CD18AC31F800AC207E /* MessagingScreen */,
 				F346E5CC18AC31EA00AC207E /* HomeScreen */,
 				F3E05CFC18AA8CF9008CD655 /* NavAppDelegate.h */,
 				F3E05CFD18AA8CF9008CD655 /* NavAppDelegate.m */,
@@ -269,10 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39FCAC818AE80B300F77C4F /* Main_iPhone.storyboard in Resources */,
 				F3E05D0918AA8CF9008CD655 /* Images.xcassets in Resources */,
-				F3E05D0118AA8CF9008CD655 /* Main_iPhone.storyboard in Resources */,
 				F3E05CF818AA8CF9008CD655 /* InfoPlist.strings in Resources */,
-				F346E5D318AD856A00AC207E /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39FCACB18AE86F300F77C4F /* BTPeripherialManager.m in Sources */,
 				F3E05CFE18AA8CF9008CD655 /* NavAppDelegate.m in Sources */,
+				F39FCAD518AEA6A200F77C4F /* BTDeviceGrouping.m in Sources */,
+				F39FCADB18AEA9BF00F77C4F /* BTDeviceGroupingObject.m in Sources */,
 				F346E5D618AD87C100AC207E /* BTDeviceManager.m in Sources */,
 				F3E05D0718AA8CF9008CD655 /* NavViewController.m in Sources */,
 				F3E05CFA18AA8CF9008CD655 /* main.m in Sources */,
+				F3A44AAC18B577E400E61119 /* MyLifterDevice.m in Sources */,
+				F3A44AA918B3B9F800E61119 /* MessagingScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +457,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueToothTesting/BlueToothTesting-Prefix.pch";
 				INFOPLIST_FILE = "BlueToothTesting/BlueToothTesting-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,10 +472,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueToothTesting/BlueToothTesting-Prefix.pch";
 				INFOPLIST_FILE = "BlueToothTesting/BlueToothTesting-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

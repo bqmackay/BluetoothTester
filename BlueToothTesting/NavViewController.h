@@ -10,10 +10,10 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "BTDeviceManagerDelegate.h"
 
-@interface NavViewController : UITableViewController <CBPeripheralDelegate, CBPeripheralManagerDelegate, UITableViewDataSource, UITableViewDelegate, BTDeviceManagerDelegate>
+@interface NavViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate, BTDeviceManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UINavigationItem *scanButton;
 
-- (IBAction)scanButtonAction:(id)sender;
+- (IBAction)groupButtonAction:(id)sender;
 
 @end
